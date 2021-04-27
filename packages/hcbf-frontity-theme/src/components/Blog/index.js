@@ -4,7 +4,7 @@ import Link from "@frontity/components/link";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import DateConverter from './DateConverter.js'
+import DateConverter from './dateConverter.js'
 
 const List = ({ state, actions, libraries }) => {
 
