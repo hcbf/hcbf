@@ -1,0 +1,54 @@
+{
+  "_from": "@frontity/types@^1.7.2",
+  "_id": "@frontity/types@1.7.2",
+  "_inBundle": false,
+  "_integrity": "sha512-sOtE5AoZudiwi3GeYE6F/Lf8ir+471zc+Y/R+GPH6YXytDF85omSkBLVK82hpI+tjE7VIMrrZEFOsPJuXrKRCg==",
+  "_location": "/@frontity/types",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@frontity/types@^1.7.2",
+    "name": "@frontity/types",
+    "escapedName": "@frontity%2ftypes",
+    "scope": "@frontity",
+    "rawSpec": "^1.7.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.7.2"
+  },
+  "_requiredBy": [
+    "/frontity"
+  ],
+  "_resolved": "https://registry.npmjs.org/@frontity/types/-/types-1.7.2.tgz",
+  "_shasum": "0bdc3c1b3bdf9043b1ac1ede88803fc4c7df395f",
+  "_spec": "@frontity/types@^1.7.2",
+  "_where": "/Users/kcristin/Local Sites/HCBF/hcbf-frontity/node_modules/frontity",
+  "bugs": {
+    "url": "https://community.frontity.org"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/koa": "^2.11.6",
+    "ts-essentials": "^6.0.0"
+  },
+  "deprecated": false,
+  "description": "Types for the different Frontity APIs",
+  "homepage": "https://frontity.org",
+  "keywords": [
+    "frontity",
+    "types",
+    "typescript"
+  ],
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "name": "@frontity/types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontity/frontity.git"
+  },
+  "scripts": {
+    "test": "../../node_modules/.bin/jest --clearCache && ../../node_modules/.bin/jest",
+    "test:ci": "../../node_modules/.bin/jest --ci --coverage"
+  },
+  "version": "1.7.2"
+}

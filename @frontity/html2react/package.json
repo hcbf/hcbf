@@ -1,0 +1,64 @@
+{
+  "_from": "@frontity/html2react@^1.6.1",
+  "_id": "@frontity/html2react@1.6.2",
+  "_inBundle": false,
+  "_integrity": "sha512-SJdCFVQe5keUdYmgJJQnkPj8d1fNrzwwiE/PSjDeK+7LnlbE7umwdrLfhgKMUlPNHVTFkLQUapCKI7/V8vSMQg==",
+  "_location": "/@frontity/html2react",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@frontity/html2react@^1.6.1",
+    "name": "@frontity/html2react",
+    "escapedName": "@frontity%2fhtml2react",
+    "scope": "@frontity",
+    "rawSpec": "^1.6.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.6.1"
+  },
+  "_requiredBy": [
+    "/",
+    "/@frontity/mars-theme",
+    "/@frontity/yoast"
+  ],
+  "_resolved": "https://registry.npmjs.org/@frontity/html2react/-/html2react-1.6.2.tgz",
+  "_shasum": "71cf1695d1850b8cdaf7abcb81edf34092d9b030",
+  "_spec": "@frontity/html2react@^1.6.1",
+  "_where": "/Users/kcristin/Local Sites/HCBF/hcbf-frontity",
+  "bugs": {
+    "url": "https://community.frontity.org"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@emotion/react": "^11.1.4",
+    "@frontity/components": "^1.7.1",
+    "frontity": "^1.14.3",
+    "himalaya": "^1.1.0"
+  },
+  "deprecated": false,
+  "description": "HTML to React converter for Frontity",
+  "devDependencies": {
+    "@emotion/jest": "^11.2.1",
+    "@frontity/connect": "^1.2.1",
+    "@testing-library/react": "^11.2.5",
+    "@types/react-test-renderer": "^17.0.0",
+    "react-test-renderer": "^17.0.1"
+  },
+  "homepage": "https://frontity.org",
+  "keywords": [
+    "frontity",
+    "frontity-html2react"
+  ],
+  "license": "Apache-2.0",
+  "name": "@frontity/html2react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontity/frontity.git"
+  },
+  "scripts": {
+    "test": "../../node_modules/.bin/jest --watch",
+    "test:ci": "../../node_modules/.bin/jest --ci --coverage",
+    "test:inspect": "node --inspect ../../node_modules/.bin/jest --watch --no-cache --runInBand"
+  },
+  "version": "1.6.2"
+}

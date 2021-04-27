@@ -1,0 +1,57 @@
+{
+  "_from": "@frontity/tiny-router@^1.3.2",
+  "_id": "@frontity/tiny-router@1.4.1",
+  "_inBundle": false,
+  "_integrity": "sha512-xpLtXOW8veeptq++bIpJ+0IODia3de0Jyb2+qCKcRMEABjTR+5jUUzVHrZisNDougitYbXW86VLnx8JZCTFRgw==",
+  "_location": "/@frontity/tiny-router",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@frontity/tiny-router@^1.3.2",
+    "name": "@frontity/tiny-router",
+    "escapedName": "@frontity%2ftiny-router",
+    "scope": "@frontity",
+    "rawSpec": "^1.3.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.3.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@frontity/tiny-router/-/tiny-router-1.4.1.tgz",
+  "_shasum": "da895acfd1bcce8aabbc325cf2f81e0f84791764",
+  "_spec": "@frontity/tiny-router@^1.3.2",
+  "_where": "/Users/kcristin/Local Sites/HCBF/hcbf-frontity",
+  "bugs": {
+    "url": "https://github.com/frontity/frontity/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@frontity/router": "^1.3.0",
+    "@frontity/source": "^1.5.1",
+    "frontity": "^1.14.3"
+  },
+  "deprecated": false,
+  "description": "A tiny router for Frontity projects",
+  "devDependencies": {
+    "@frontity/error": "0.1.3"
+  },
+  "homepage": "https://github.com/frontity/frontity",
+  "keywords": [
+    "frontity",
+    "frontity-router"
+  ],
+  "license": "Apache-2.0",
+  "name": "@frontity/tiny-router",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontity/frontity.git"
+  },
+  "scripts": {
+    "test": "../../node_modules/.bin/jest --watch",
+    "test:ci": "../../node_modules/.bin/jest --ci --coverage",
+    "test:inspect": "node --inspect ../../node_modules/.bin/jest --watch --no-cache --runInBand"
+  },
+  "version": "1.4.1"
+}

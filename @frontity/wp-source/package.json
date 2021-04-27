@@ -1,0 +1,63 @@
+{
+  "_from": "@frontity/wp-source@^1.11.1",
+  "_id": "@frontity/wp-source@1.11.2",
+  "_inBundle": false,
+  "_integrity": "sha512-FEjlejQ+rryvzDHv20cLfSHTjOLbqlannvAVMh5gfUFnDeoC0NvDe4xq19NfJidAkYkPlhv8iPARd1SqMmIEyQ==",
+  "_location": "/@frontity/wp-source",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@frontity/wp-source@^1.11.1",
+    "name": "@frontity/wp-source",
+    "escapedName": "@frontity%2fwp-source",
+    "scope": "@frontity",
+    "rawSpec": "^1.11.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.11.1"
+  },
+  "_requiredBy": [
+    "/",
+    "/@frontity/hooks",
+    "/@frontity/yoast"
+  ],
+  "_resolved": "https://registry.npmjs.org/@frontity/wp-source/-/wp-source-1.11.2.tgz",
+  "_shasum": "8364f5f40e5d96082435e8a0b27895c88850c33b",
+  "_spec": "@frontity/wp-source@^1.11.1",
+  "_where": "/Users/kcristin/Local Sites/HCBF/hcbf-frontity",
+  "bugs": {
+    "url": "https://github.com/frontity/frontity/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@frontity/source": "^1.5.1",
+    "frontity": "^1.14.2",
+    "normalizr": "^3.3.0",
+    "path-to-regexp": "^3.0.0",
+    "query-string": "^6.8.3"
+  },
+  "deprecated": false,
+  "description": "A Frontity source package for the REST API of self-hosted and WordPress.com sites",
+  "devDependencies": {
+    "@frontity/connect": "^1.2.1",
+    "clone-deep": "^4.0.1",
+    "node-fetch": "^2.6.1"
+  },
+  "homepage": "https://github.com/frontity/frontity",
+  "keywords": [
+    "frontity",
+    "frontity-source"
+  ],
+  "license": "Apache-2.0",
+  "name": "@frontity/wp-source",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontity/frontity.git"
+  },
+  "scripts": {
+    "test": "../../node_modules/.bin/jest --watch",
+    "test:ci": "../../node_modules/.bin/jest --ci --coverage",
+    "test:inspect": "node --inspect ../../node_modules/jest/bin/jest.js --watch --no-cache --runInBand"
+  },
+  "version": "1.11.2"
+}

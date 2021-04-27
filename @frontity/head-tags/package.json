@@ -1,0 +1,63 @@
+{
+  "_from": "@frontity/head-tags@^1.1.1",
+  "_id": "@frontity/head-tags@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-62c8QmYS6pk3fwCEOaw76uwIcPMhUvhO88/W37hCHDDyEVfYLC7PvU7LWIm54qgBeO6AXgscorgV0Og7/MYmJA==",
+  "_location": "/@frontity/head-tags",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@frontity/head-tags@^1.1.1",
+    "name": "@frontity/head-tags",
+    "escapedName": "@frontity%2fhead-tags",
+    "scope": "@frontity",
+    "rawSpec": "^1.1.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.1"
+  },
+  "_requiredBy": [
+    "/@frontity/yoast"
+  ],
+  "_resolved": "https://registry.npmjs.org/@frontity/head-tags/-/head-tags-1.1.1.tgz",
+  "_shasum": "f11587eb0ba92fc5edf3185dfb7a9a530de4d9c8",
+  "_spec": "@frontity/head-tags@^1.1.1",
+  "_where": "/Users/kcristin/Local Sites/HCBF/hcbf-frontity/node_modules/@frontity/yoast",
+  "bugs": {
+    "url": "https://github.com/frontity/frontity/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@frontity/router": "^1.1.4",
+    "@frontity/source": "^1.5.1",
+    "frontity": "^1.14.1"
+  },
+  "deprecated": false,
+  "description": "Integrate your Frontity site with REST API - Head Tags by Frontity",
+  "devDependencies": {
+    "@frontity/connect": "^1.2.1",
+    "@frontity/wp-source": "^1.11.1",
+    "clone-deep": "^4.0.1",
+    "deepmerge": "^4.2.2"
+  },
+  "homepage": "https://github.com/frontity/frontity",
+  "keywords": [
+    "frontity",
+    "frontity-head-tags",
+    "yoast",
+    "all-in-one-seo-pack",
+    "seo"
+  ],
+  "license": "Apache-2.0",
+  "name": "@frontity/head-tags",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontity/frontity.git"
+  },
+  "scripts": {
+    "test": "../../node_modules/.bin/jest --watch",
+    "test:ci": "../../node_modules/.bin/jest --ci --coverage",
+    "test:inspect": "node --inspect ../../node_modules/jest/bin/jest.js --watch --no-cache --runInBand"
+  },
+  "version": "1.1.1"
+}

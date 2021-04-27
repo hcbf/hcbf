@@ -1,0 +1,61 @@
+{
+  "_from": "@frontity/hooks@^2.2.0",
+  "_id": "@frontity/hooks@2.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-tTl+Nqm3MemBZ6B5g6XUZYcELarHuj9lMW5Cpdk+/7JeGxu0rnb7I8Pa4ErcqYaEKHpvo24HGdsXT/ZAhZKIeA==",
+  "_location": "/@frontity/hooks",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@frontity/hooks@^2.2.0",
+    "name": "@frontity/hooks",
+    "escapedName": "@frontity%2fhooks",
+    "scope": "@frontity",
+    "rawSpec": "^2.2.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.2.0"
+  },
+  "_requiredBy": [
+    "/",
+    "/@frontity/components"
+  ],
+  "_resolved": "https://registry.npmjs.org/@frontity/hooks/-/hooks-2.2.0.tgz",
+  "_shasum": "aac4a474a0c00450f02f8c6cbdd197ee16fbca09",
+  "_spec": "@frontity/hooks@^2.2.0",
+  "_where": "/Users/kcristin/Local Sites/HCBF/hcbf-frontity",
+  "bugs": {
+    "url": "https://community.frontity.org"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@frontity/router": "^1.3.0",
+    "@frontity/source": "^1.5.1",
+    "@frontity/wp-source": "^1.11.2",
+    "frontity": "^1.14.2",
+    "react-intersection-observer": "^8.26.2"
+  },
+  "deprecated": false,
+  "description": "Collection of React hooks for Frontity",
+  "devDependencies": {
+    "clone-deep": "^4.0.1"
+  },
+  "homepage": "https://frontity.org",
+  "keywords": [
+    "frontity",
+    "hooks"
+  ],
+  "license": "Apache-2.0",
+  "name": "@frontity/hooks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontity/frontity.git"
+  },
+  "scripts": {
+    "test": "../../node_modules/.bin/jest --watch",
+    "test:ci": "../../node_modules/.bin/jest --passWithNoTests --ci --coverage",
+    "test:inspect": "node --inspect ../../node_modules/jest/bin/jest.js --watch --no-cache --runInBand"
+  },
+  "sideEffects": false,
+  "version": "2.2.0"
+}
