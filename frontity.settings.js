@@ -2,7 +2,7 @@ const settings = {
   "name": "hcbf-frontity",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
+      "url": "http://hcbfreact.local/wp-json",
       "title": "Test Frontity Blog",
       "description": "WordPress installation for Frontity development"
     }
