@@ -1,13 +1,9 @@
 import React from "react";
 import { connect, Head, Global, css, styled } from "frontity";
-import Link from "@frontity/components/link";
 import Switch from "@frontity/components/switch";
 
 import gutenbergStyle from "../styles/gutenberg/style.css";
 import gutenbergTheme from "../styles/gutenberg/theme.css";
-
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 import List from "./Blog/index";
 import Post from "./post";
