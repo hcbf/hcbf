@@ -15,7 +15,7 @@ const List = ({ state, actions, libraries }) => {
   const page = state.source['page'][blogContent.id];
 
   useEffect(() => {
-    if (data.route === '/blog/') {
+    if (data.route === '/blog') {
       actions.source.fetch('/blog-content');
     }
   }, [state.router.link]);
