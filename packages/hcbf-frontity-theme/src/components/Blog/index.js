@@ -22,6 +22,8 @@ const List = ({ state, actions, libraries }) => {
 
   return (
 
+    blogContent.isReady &&
+
     <ListContent fluid="xl">
       <Title>Blog</Title>
       <Html2React html={page.content.rendered}/>
