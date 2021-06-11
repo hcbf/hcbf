@@ -15,7 +15,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://kyles-test-site.com/",
+          "url": "https://kyles-test-site.vercel.app/",
           "postsPage": "/blog",
           "homepage": "/home",
         }
