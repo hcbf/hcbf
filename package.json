@@ -28,6 +28,7 @@
     "frontity": "^1.16.0",
     "frontity-contact-form-7": "^0.1.7",
     "hcbf-frontity-theme": "file:packages/hcbf-frontity-theme",
+    "lottie-react": "^2.1.0",
     "papaparse": "^5.3.1",
     "react-bootstrap": "^1.6.1"
   }
