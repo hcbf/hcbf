@@ -30,7 +30,7 @@ const List = ({ state, actions, libraries }) => {
       {data.items.map((item) => {
         const post = state.source[item.type][item.id];
         const author = state.source['author'][post.author];
-        console.log(author.name);
+        console.log(author)
         const date = post.date;
 
         return (
@@ -48,6 +48,9 @@ const List = ({ state, actions, libraries }) => {
                   <Html2React html={post.excerpt.rendered}/>
                 </Row>
                 <BottomRow>
+                  <Col>
+                    {author && (<p>by {author.name}</p>)}
+                  </Col>
                   <Col className="text-right">
                     <Link key={item.id} link={post.link}>Read More</Link>
                   </Col>
