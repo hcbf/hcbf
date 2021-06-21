@@ -17,6 +17,7 @@
   },
   "prettier": {},
   "dependencies": {
+    "@aamodtgroup/frontity-contact-form-7": "^0.2.6",
     "@frontity/core": "^1.14.2",
     "@frontity/hooks": "^2.2.2",
     "@frontity/html2react": "^1.7.0",
@@ -26,7 +27,6 @@
     "antd": "^4.16.2",
     "bootstrap": "^4.6.0",
     "frontity": "^1.16.0",
-    "frontity-contact-form-7": "^0.1.7",
     "hcbf-frontity-theme": "file:packages/hcbf-frontity-theme",
     "lottie-react": "^2.1.0",
     "papaparse": "^5.3.1",
