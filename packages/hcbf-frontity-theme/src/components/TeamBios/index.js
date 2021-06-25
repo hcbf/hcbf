@@ -11,20 +11,21 @@ const BioContainer = ({ teamMembers, lastRow }) => {
 
   let bioContent = [];
   teamMembers.map(profile => {
-    if (profile.children[profile.children.length - 1] !== undefined) {
+    if (profile.children[profile.children.length - 1] !== undefined && profile.children.length >= 4) {
       let contentArray = profile.children[profile.children.length - 1].children[0].children;
-      let appendedContent = [];
+      let bioText = [];
       contentArray.map(content => {
-        appendedContent += `<p>${content.children[0].content}</p>`;
+        bioText += `<p>${content.children[0].content}</p>`;
       });
-      bioContent.push(appendedContent);
+      bioContent.push(bioText);
     }
   });
+  console.log(bioContent);
 
   return (
     <PageContent>
       <RowContent>
-        { teamMembers[0].children[0] !== undefined &&
+        { teamMembers[0].children[0] !== undefined && teamMembers[0].children.length > 1 && 
           <TeamMember
             profPic={teamMembers[0].children[0].children[0]}
             name={teamMembers[0].children[1].children[0].content}
@@ -48,7 +49,7 @@ const BioContainer = ({ teamMembers, lastRow }) => {
 
             }} />
         }
-        { teamMembers[1].children[0] !== undefined &&
+        { teamMembers[1].children[0] !== undefined && teamMembers[1].children.length > 1 && 
           <TeamMember
             profPic={teamMembers[1].children[0].children[0]}
             name={teamMembers[1].children[1].children[0].content}
@@ -72,7 +73,7 @@ const BioContainer = ({ teamMembers, lastRow }) => {
 
             }} />
         }
-        { teamMembers[2].children[0] !== undefined &&
+        { teamMembers[2].children[0] !== undefined && teamMembers[2].children.length > 1 && 
           <TeamMember
             profPic={teamMembers[2].children[0].children[0]}
             name={teamMembers[2].children[1].children[0].content}
@@ -103,7 +104,7 @@ const BioContainer = ({ teamMembers, lastRow }) => {
   );
 };
 
-export default connect(BioContainer);
+export default BioContainer;
 
 const PageContent = styled(Container)`
   img {
