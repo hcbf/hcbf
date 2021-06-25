@@ -125,4 +125,4 @@ const Theme = {
   },
 };
 
-export default connect ( Theme );
+export default Theme;
