@@ -73,7 +73,12 @@ const Theme = {
         await actions.source.fetch(`/acf/${state.theme.meetingsPage.id}`);
 
         // Fetch Grants data for Grants Page
-        await actions.source.fetch(`/acf/${state.theme.grantsPage.id}`);
+        await actions.source.fetch(`/acf/${state.theme.grantsPage.id}`, {
+          mode: "no-cors",
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
+        });
         const categoryID = state.source.get(`/acf/${state.theme.grantsPage.id}`).items['grantee_logos'][0];
         const { api } = libraries.source;
         const response = await api.get({
