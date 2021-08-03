@@ -73,11 +73,7 @@ const Theme = {
         await actions.source.fetch(`/acf/${state.theme.meetingsPage.id}`);
 
         // Fetch Grants data for Grants Page
-        await actions.source.fetch(`/acf/${state.theme.grantsPage.id}`, {
-          headers: {
-            "Access-Control-Allow-Origin": "https://kyles-test-site.vercel.app"
-          },
-        });
+        await actions.source.fetch(`/acf/${state.theme.grantsPage.id}`);
         const categoryID = state.source.get(`/acf/${state.theme.grantsPage.id}`).items['grantee_logos'][0];
         const { api } = libraries.source;
         const response = await api.get({
